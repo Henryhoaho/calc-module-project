@@ -1,0 +1,82 @@
+.center {
+  text-align: center;
+}
+button {
+  font-size: 15px;
+  margin: auto;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 3px;
+}
+.btn-center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(174, 255, 174);
+  width: 30%;
+  border-radius: 5px;
+}
+.btn-center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  background-color: rgb(255, 186, 186);
+  border-radius: 5px;
+}
+body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 50px 75px;
+  border-radius: 25px;
+}
+html {
+  background: url(images/40b6c957ae159b49e22ea868717198c5f6cc8bf8_2000x2000.jpeg);
+  background-size: 1500px;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 10px;
+}
+
+.more-btn {
+  background-color: rgb(43, 92, 141);
+  border-radius: 5px;
+}
+.GST {
+  text-align: center;
+  font-weight: bold;
+}
+#more {
+  font-weight: bold;
+}
+.input {
+  width: 100px;
+}
+.heading1 {
+  text-align: center;
+  background-color: bisque;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+button:hover {
+  font-weight: bold;
+}
+.container-1 {
+  border: 2px solid rgb(134, 104, 68);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255);
+}
+.container-2 {
+  border: 2px solid rgb(134, 104, 68);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255);
+}

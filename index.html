@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <h1 class="heading1">Tip caculator</h1>
+    <p class="center" id="more">
+      When having more than 15 people the default tip is:<button
+        class="more-btn"
+        id="if-button"
+      >
+        more than 15 people
+      </button>
+      <p class="center" id="more">if you have 15 the default tip is 25%</p>
+    </p>
+    <div class="container-2">
+    <p class="center">
+      Tip precentage(%):<input type="number" id="i1" min="5" max="25" class="input" />
+    (max 25%)(min 5)</p>
+    <p class="center">
+      Number of people: <input type="number" id="i2" min="1" max="30" class="input"/>
+    (max 30)(min 1)</p>
+    <p class="center">
+      Cost of payment($):<input type="number" id="i3" min="1" max="10000" class="input"  />
+      (max 10000$)
+    </p>
+    <button id="enter-btn" class="btn-center1">enter</button>
+    <button id="clear-btn" class="btn-center2">clear</button>
+  </div>
+    <hr />
+    <h1 class="heading1">Amount</h1>
+    <div class="container-1">
+    <p class="GST">(total includes GST 5%)</p>
+    <p class="center">price of tip :<span id="output-1"> ---</span></p>
+    <p class="center">tip per person: <span id="output-2"> ---</span></p>
+    <p class="center">price of GST: <span id="output-4">---</span></p>
+    <p class="center">total amount:<span id="output-3"> ---</span></p>
+  </div>
+  </body>
+</html>
